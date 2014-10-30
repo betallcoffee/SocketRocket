@@ -85,6 +85,9 @@ extern NSString *const SRHTTPResponseErrorKey;
 // Send a UTF8 String or Data.
 - (void)send:(id)data;
 
+// Send ping message
+- (void)sendPing:(NSData *)data;
+
 @end
 
 #pragma mark - SRWebSocketDelegate
